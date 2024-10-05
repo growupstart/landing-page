@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Unzip file
-      run: unzip awesome-oss-alternatives-main.zip -d landing-page
+      run: unzip <awesome-oss-alternatives-main.zip> -d <landing-page>
 
     - name: Commit unzipped files
       run: |
